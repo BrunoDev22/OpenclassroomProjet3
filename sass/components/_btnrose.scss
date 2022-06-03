@@ -1,0 +1,17 @@
+.accroche__blocbtn {
+    display: flex;
+    justify-content: center;
+    .accroche__btn {
+        display: flex;
+        justify-content: center;
+        height: 35px;
+        align-items: center;
+        border-radius: 20px;
+        color: $white;
+        padding-left: 5%;
+        padding-right: 5%;
+        &--modifier {
+            background-color: $pink;
+        }
+    }
+}

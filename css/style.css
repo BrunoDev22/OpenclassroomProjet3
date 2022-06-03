@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Shrikhand", cursive;
+}
+
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.bloc-logo {
+  display: flex;
+  justify-content: center;
+}
+.bloc-logo__img {
+  width: 42%;
+}
+
+.accroche__blocbtn {
+  display: flex;
+  justify-content: center;
+}
+.accroche__blocbtn .accroche__btn {
+  display: flex;
+  justify-content: center;
+  height: 35px;
+  align-items: center;
+  border-radius: 20px;
+  color: #fff;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.accroche__blocbtn .accroche__btn--modifier {
+  background-color: #FF79DA;
+}
+
+.bullegrise__greyicon {
+  margin-right: 20px;
+  margin-left: 30px;
+}
+
+.restaurant__picture {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bloc-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  height: 35px;
+}
+.bloc-heading__icon {
+  color: black;
+  margin-right: 3%;
+}
+.bloc-heading h4 {
+  color: black;
+}
+
+.accroche {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-bottom: 45px;
+}
+
+.mainbloc {
+  margin-top: 40px;
+}
+.mainbloc h2 {
+  margin-left: 20px;
+}
+
+.bullegrise {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px grey;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 15px;
+  height: 60px;
+}
+.bullegrise__texte {
+  display: flex;
+  text-align: center;
+}
+
+.restaurant__container {
+  background-color: #f2f2f2;
+}
+.restaurant__titleContainer {
+  margin-left: 20px;
+}
+.restaurant__cardRestaurant {
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px 1px grey;
+}
+.restaurant__pictureContainer {
+  height: 72%;
+}
+.restaurant__divtexticon {
+  background-color: #fff;
+  height: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.restaurant__divtext {
+  margin-left: 12px;
+  margin-top: 5px;
+  height: 77%;
+}
+.restaurant__divtext h3 {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.restaurant__divtext p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.restaurant__divhearticon {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

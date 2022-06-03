@@ -1,0 +1,12 @@
+.bloc-parent__heading {
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.bloc__heading {
+    color: blue;
+    border: 5px solid black;
+    align-items: flex-end;
+}
