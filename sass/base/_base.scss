@@ -4,11 +4,15 @@ body {
     padding: 0;
 }
 
-h2 {
-    font-family: 'Shrikhand', cursive;
-}
-
+// h2 {
+//     font-family: 'Shrikhand', cursive;
+// }
+h2,
 h3,
 p {
     font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 19px;
 }

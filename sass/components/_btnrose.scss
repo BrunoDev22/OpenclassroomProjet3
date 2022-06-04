@@ -1,15 +1,18 @@
-.accroche__blocbtn {
-    display: flex;
-    justify-content: center;
-    .accroche__btn {
+.presentation {
+    &__btnContainer {
         display: flex;
         justify-content: center;
-        height: 35px;
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        height: 50px;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 25px;
         color: $white;
         padding-left: 5%;
         padding-right: 5%;
+        width: 70%;
         &--modifier {
             background-color: $pink;
         }

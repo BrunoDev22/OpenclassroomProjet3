@@ -1,6 +1,10 @@
 .bloc-logo {
     display: flex;
     justify-content: center;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
     &__img {
         width: 42%;
     }

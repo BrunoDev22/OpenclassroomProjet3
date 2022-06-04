@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     background-color: grey;
-    height: 35px;
+    height: 50px;
     &__icon {
         color: black;
         margin-right: 3%;
@@ -13,21 +13,39 @@
     }
 }
 
-.accroche {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
-    text-align: center;
-    background-color: $ligthgrey;
-    padding-bottom: 45px;
+.presentation {
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        // padding-left: 30px;
+        // padding-right: 30px;
+        text-align: center;
+        background-color: $ligthgrey;
+        padding-bottom: 55px;
+    }
+    &__indexTitle {
+        padding-top: 25px;
+        text-align: center;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 10px;
+    }
+    &__para {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 10px;
+    }
 }
 
-.mainbloc {
-    margin-top: 40px;
+.instruction {
+    &__container {
+        margin-top: 47px;
+        margin-bottom: 73px;
+    }
     & h2 {
         margin-left: 20px;
+        margin-bottom: 25px;
     }
 }
 
@@ -35,27 +53,32 @@
     display: flex;
     align-items: center;
     background-color: $ligthgrey;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: 1px 2px 3px grey;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     margin-left: 30px;
     margin-right: 15px;
-    height: 60px;
+    height: 76px;
     &__texte {
         display: flex;
         text-align: center;
     }
 }
 
+// Mise en forme selon Yousri coach opc
 .restaurant {
     &__container {
         background-color: $ligthgrey;
+        margin-top: 80px;
+    }
+    &__titleAndCardContainer {
+        padding-top: 35px;
     }
     &__titleContainer {
         margin-left: 20px;
     }
     &__cardRestaurant {
-        height: 250px;
+        height: 270px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 15px;
@@ -64,11 +87,11 @@
         box-shadow: 1px 1px 15px 1px grey
     }
     &__pictureContainer {
-        height: 72%;
+        height: 70%;
     }
     &__divtexticon {
         background-color: $white;
-        height: 28%;
+        height: 30%;
         display: flex;
         align-items: center;
         justify-content: space-between;
